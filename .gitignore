@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# --- Python 기본 ---
+*.py[cod]
+
+
+# --- 영상 데이터  ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# --- 분석 결과물  ---
+result/
+output_scenes/
+*.csv
